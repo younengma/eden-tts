@@ -1,0 +1,6 @@
+checkpoints/
+outputs/
+.idea/
+__pycache__/
+architecture.png
+data/

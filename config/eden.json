@@ -1,0 +1,36 @@
+{
+    "num_gpus": 0,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "delta": 0.2,
+
+    "use_postnet": true,
+    "speaker": "ljs",
+    "n_channels": 512,
+    "num_mels": 80,
+
+    "text_encoder_layers": 6,
+    "text_encoder_dropout": 0.2,
+    "text_encoder_hidden": 384,
+
+    "decoder_dropout": 0.1,
+    "decoder_layers": 6,
+    "decoder_ksize": 5,
+    "decoder_dilation": [1, 1, 1, 1, 1, 1],
+    "decoder_hidden": 512,
+
+    "mel_encoder_layers": 3,
+    "mel_encoder_dilation": [1, 1, 1],
+    "mel_encoder_ksize": 5,
+    "mel_encoder_dropout": 0.1,
+    "mel_encoder_hidden": 512,
+
+    "duration_predictor_ksize": 3,
+    "duration_predictor_filter_zie": 256,
+    "duration_predictor_dropout": 0.5,
+
+    "pos_embed_scheme": "none",
+
+    "num_workers": 1
+
+}

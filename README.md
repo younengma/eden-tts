@@ -12,10 +12,8 @@
 
 ## reference
 
-Codes from the following github repositories are used:
+### git respository
 1. [WaveRNN](https://github.com/fatchord/WaveRNN)
 2. [fastspeech](https://github.com/xcmyz/FastSpeech)
 3. [tacotron](https://github.com/keithito/tacotron)
 4. [efficient_tts](https://github.com/liusongxiang/efficient_tts)
-
-The code structure is refered to WaveRNN.
