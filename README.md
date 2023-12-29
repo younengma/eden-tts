@@ -2,6 +2,8 @@
 
 We propose Eden-TTS, a simple and efficient parallel TTS architecture which jointly learns duration prediction, text-speech alignment and speech generation in a single fully-differentiable model. The alignment is learned implicitly in our architecture. A novel energy-modulated attention mechanism is proposed for alignment guidance which leads to fast and stable convergence of our model. Our model can be easily implemented and trained. 
 
+Listen the audio samples: **[audio samples](https://edenynm.github.io/edentts-demo/)**
+
 ## architecture
 ![](architecture.png)
 
