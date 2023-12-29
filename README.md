@@ -1,5 +1,9 @@
 # Pytorch implementation of  ***Eden-TTS: A Simple and Efficient Parallel Text-to-speech Architecture with Collaborative Duration-alignment Learning***
 
+We propose Eden-TTS, a simple and efficient parallel TTS architecture which jointly learns duration prediction, text-speech alignment and speech generation in a single fully-differentiable model. The alignment is learned implicitly in our architecture. A novel energy-modulated attention mechanism is proposed for alignment guidance which leads to fast and stable convergence of our model. Our model can be easily implemented and trained. 
+
+## architecture
+![](architecture.png)
 
 ## train the model using ljspeech
 - download the [ljspeech](https://keithito.com/LJ-Speech-Dataset/) and extract it 
@@ -17,3 +21,16 @@
 2. [fastspeech](https://github.com/xcmyz/FastSpeech)
 3. [tacotron](https://github.com/keithito/tacotron)
 4. [efficient_tts](https://github.com/liusongxiang/efficient_tts)
+
+## cite our article
+If you find the method helpful, you may cite the following article.
+```
+@inproceedings{ma23c_interspeech,
+  author={Youneng Ma and Junyi He and Meimei Wu and Guangyue Hu and Haojun Fei},
+  title={{EdenTTS: A Simple and Efficient Parallel Text-to-speech Architecture with Collaborative Duration-alignment Learning}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={4449--4453},
+  doi={10.21437/Interspeech.2023-700}
+}
+```
